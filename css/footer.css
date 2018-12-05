@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#footer{
+	width: 1000px;
+	margin:0px auto;
+}
+#footer-top{
+	background-color: #005DA0;
+	margin: 10px 0px;
+}
+#footer-top form{
+	display: inline-block;
+	padding: 9px 38px;
+}
+#footer-top form select{
+	width: 223px;
+}
+#footer-bottom p{
+	text-align: center;
+	font-size: 13px;
+}
+#footer-bottom p a{
+	padding-right: 20px;
+	text-decoration: none;
+	color: black;
+
+}
+#footer-bottom p a,#footer-bottom p span{
+	font-size: 13px;	
+}

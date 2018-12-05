@@ -1,0 +1,148 @@
+*{
+	margin:0;
+	padding:0;
+}
+#carousel{
+		height: 350px;
+		overflow: hidden; 
+		background: #262626;
+		position:relative;
+		z-index:0;
+		margin-bottom:5px;
+	}
+
+.scrollNewsTitle{
+	color:white;
+	font-size:32px;
+	font-family:"Microsoft YaHei";
+	padding:50px;
+}
+.scrollNewsContent{
+	color:white;
+	font-size:16px;
+	padding:30px;
+	line-height: 2.0em;
+}
+.newsDescribe {
+    position: absolute;
+    top: 185px;
+    height: 40px;
+    z-index: 100;
+    width: 1000px;
+}
+
+
+
+.newsDescribe p {
+    background-color: rgba(255,255,255,.7);
+    max-width: 750px;
+    font-family: "Microsoft YaHei";
+    color: #363636;
+    height: 40px;
+    padding-top: 10px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 50px;
+    text-align: left;
+    padding-left: 18px;
+    line-height: 2.4;
+    float: left;
+    min-width: 500px;
+}
+
+.newsDescribe a {
+    display: block;
+    font-family: "Microsoft YaHei";
+    padding-left: 25px;
+    width: 80px;
+    height: 40px;
+    color: white;
+    font-style: italic;
+    text-align: left;
+    float: left;
+    line-height: 2.4;
+}
+
+.comp-0 {
+    background-color: #293352;
+}
+.comp-1 {
+	background-color: #0098b8;
+}
+.comp-2{
+	background-color: #29d352;
+}
+
+a {
+    text-decoration: none;
+}
+.wrap{
+	height:350px;
+	width:1000px;
+	margin:0 auto;
+	background:#262626;
+	position:relative;
+}
+
+.scrollMessage{
+	width:457px;
+	height:350px;
+	background-image:url(rotateBack.png);
+	position:absolute;
+	left:0;
+	z-index:100;
+}
+
+.scrollImg{
+	position:absolute;
+	right:0;
+}
+
+.prev-image{
+	position: absolute;
+	left: -1000px;
+	top: 0;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+
+.next-image{
+	position: absolute;
+	top: 0;
+	right: -544px;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+
+.hide{
+	display:none;
+}
+
+.hiddenLeft{
+	position:absolute;
+	left:-817px;
+	top:0px;
+	opacity:0;
+}
+
+.hiddenRight{
+	position:absolute;
+	top:0px;
+	opacity:0;
+}
+
+.scrollContrl{
+	position: absolute;
+	left: 50%;
+	bottom: 43px;	
+	width: 200px;
+	height: 32px;
+	margin-left: -449px;
+	overflow:hidden;
+	display:block;
+	z-index:100;
+}
+
+.scrollContrl span{
+	cursor: pointer;
+}

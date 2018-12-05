@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#main{
+	width: 1000px;
+	margin: 10px auto;
+	color: #005DA0;
+}
+#left-section{
+	width: 700px;
+	float: left;
+}
+#right-section{
+	width: 280px;
+	float: left;
+	margin-left: 20px;
+}
+.section1,.section2,.section3{
+	width: 220px;
+	float: left;
+}
+.section2{
+	margin: 0px 20px;
+}
+#main a{
+	text-decoration: none;
+	color: #005DA0;
+}
+#main a:hover{
+	color: red;
+}
+.img-title{
+	font-size: 18px;
+	padding: 8px 14px 6px 18px;
+}
+.img-description{
+	font-size: 14px;
+	padding: 6px 14px 0px 18px;
+}
+.section-bottom{
+	margin-left: 18px;
+}
+.section-bottom p{
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+.news-sect{
+	width: 220px;
+	float: left;
+}
+#middle-sect{
+	margin: 0 10px;
+}
+.news-content{
+	width: 144px;
+	float: left;
+	border-left: 1px solid blue;
+	padding-left: 20px;
+}
+.news-content a{
+	font-size: 15px;
+}
+.date{
+	width: 46px;
+	float: left;
+	font-style: italic;
+}
+#date1{
+	color: #57AC62;
+}
+#date2{
+	color: #D5B328;
+}
+#date3{
+	color: #DA1F38;
+}
+#notice-title{
+	border-bottom: 3px solid red;
+	margin-bottom: 10px;
+}
+#notice-title p{
+	width: 180px;
+	float: left;
+	margin-bottom: 4px;
+}
+#notice-title span{
+	margin-left: 58px;
+	margin-bottom: 4px;
+}
+#notice-title span a{
+	color: grey;
+	font-size: 14px;
+	
+}
+#notices p{
+	padding: 10px 0px;
+}
+.first-notice{
+	border-bottom: 1px dashed grey;
+}
+#admission-info{
+	border-top: 3px solid purple;
+	border-bottom: 3px solid purple;
+}
+.adm-title{
+	background-color: purple;
+	color: white;
+	width: 70px;
+	padding: 7px 17px;
+	margin-bottom: 10px;
+}
+.img-caption{
+	margin:10px 0px;
+	padding: 0px 18px;
+}

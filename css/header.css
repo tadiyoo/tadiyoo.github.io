@@ -1,0 +1,51 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "Times New Roman";
+}
+#header{
+	width: 100%;
+	float: left;
+}
+#header-left-div{
+	width:25%; 
+	float: left;
+	margin: 8px 0px 4px 14% ;
+}
+#header-right-div{
+	width: 22%;
+	float: right;
+	margin: 28px 24% 4px 0px ;
+}
+#header-right-div-top{
+	padding-bottom: 15px;
+}
+#header-right-div-top ul{
+	text-align: right;
+	
+}
+#header-right-div-top ul li{
+	display: inline-block;
+	list-style: none;
+
+}
+#header-right-div-bottom form{
+	text-align: right;
+}
+a{
+	text-decoration: none;
+	color: #025C98;
+	font-size: 12px;
+}
+#search-form img{
+	margin-bottom: -7px;
+	margin-left: -6px;
+	width: 23px;
+	height: 23px;
+}
+input{
+	border: 2px solid #025C98;
+	padding: 2px 0px
+}
